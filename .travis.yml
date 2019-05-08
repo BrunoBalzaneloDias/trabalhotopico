@@ -1,0 +1,10 @@
+language: java
+jdk:
+- oraclejdk8
+deploy:
+  provider: heroku
+  api_key:
+    secure: O8hBIA3QiopJJjZR8Ppq3qAw6c0w1M+LDZ7Cgz75Pk1IT6QX3vmQnALrOrQjyUXFLkmlGJogX6y7CYo8fmD4QlMmrlgSYfFjOqfM8Q6ZE8wcUwK8nPkRZIbJFvES+KIZFSa0oTkbWBydAFhooiMZOAChyNa+rdPYfQJ8d+SiWBGmq0wgqnyfrnA8g1AAR1pqiw9Rqj0m/DwWrAj0V5iiRDwCINbRmAPhCr2zZkwkO3O/tQ64A08i7Gd9VOJ9iMZrty947+nqh6+L8y63cDQfHnWpR3szJFYv58HNmLUAjUQLWCNWTnT8Z95Bph/1eKGyVHC0SOKmqxKaT5o7qvP6iCaLh32wMWl1pqVClUpy2TKQvRCaw9ZKGeX0ydAzfjop1VGvBkgOD8d/+4hN4DCWqItUoDwf2jWOHUHFLRYBHRyy8stQZT7mXkYrQtYs7B/5azpCEVURsV7nsdz+UXchyKT/AlW+M738XbNfCNTa9e5Hx9J/SmuEsFOBy/VWFPo97/ieUjdYQeBq3GWSr7kr8tdJ6i4bI7mcXeFCqi1LmzHrOp8E5I+nok98GLyDgw0An4GwBWtGz5l3r1IH1pY+zp+I33OjdTvMsZnn+XWHPUT+cg8hZFrqoGRndOP8ni5cZEHsJEjkDfbGABMUUGXZ7FsHdD6VXiRIJJmZWTOUKOA=
+  app: testetrabalhotc
+  on:
+    repo: BrunoBalzaneloDias/testetrabalhotc
