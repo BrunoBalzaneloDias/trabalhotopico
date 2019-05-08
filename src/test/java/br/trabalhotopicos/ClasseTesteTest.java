@@ -46,7 +46,7 @@ public class ClasseTesteTest {
         int i = 1;
         int o = 1;
         ClasseTeste instance = new ClasseTeste();
-        int expResult = 6;
+        int expResult = 2;
         int result = instance.soma(i, o);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
